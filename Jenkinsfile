@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        JAR_NAME = 'spring-petclinic-2.3.0.BUILD-SNAPSHOT.jar'
+        JAR_NAME = 'spring-petclinic-3.5.0-SNAPSHOT.jar'
         IMAGE_NAME = 'grupo03/spring-petclinic:latest'
     }
 
